@@ -18,6 +18,18 @@ public class Main {
                 case 2:
                     atividades.atividade02(ler);
                     break;
+                case 3:
+                    atividades.atividade03(ler);
+                    break;
+                case 4:
+                    atividades.atividade04(ler);
+                    break;
+                case 5:
+                    atividades.atividade05(ler);
+                    break;
+                case 6:
+                    atividades.atividade06(ler);
+                    break;
             }
             System.out.printf("------FIM DA ATIVIDADE %d-------%n", atividade);
             System.out.println();
