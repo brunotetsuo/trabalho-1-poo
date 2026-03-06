@@ -309,16 +309,8 @@ public class Atividades {
 
         System.out.print("Os 10 primeiros elementos da PA: ");
         int soma = 0;
-        if (razao > 0) {
+        if (razao != 0) {
             for (int i = 1; i <= 10; i++) {
-                System.out.print(termo + " ");
-                soma += termo;
-                termo += razao;
-            }
-        }
-
-        if (razao < 0) {
-            for (int i = 10; i >= 1; i--) {
                 System.out.print(termo + " ");
                 soma += termo;
                 termo += razao;
